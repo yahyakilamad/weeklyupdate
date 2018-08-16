@@ -30,7 +30,7 @@ else {
     }
     else {
         $_SESSION['message'] = "You have entered a incorrectpassword. Please try again!";
-        header("location: errorMessage.php")
+        header("location: errorMessage.php");
     }
 }
 
