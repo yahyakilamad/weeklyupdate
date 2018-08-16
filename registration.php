@@ -65,7 +65,7 @@ else { // If email does not exist the carry on with else
 
     else {
         $_SESSION['message'] = 'Error! Registration failed! Please try again';
-        header("location: errorMessage.php");
+        header("location: errorMessage.php")
     }
 
 }
