@@ -12,7 +12,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sign-Up/Login Form</title
+    <title>Sign-Up/Login Form</title>
     <?php include 'css.html'; ?>
 </head>
 
