@@ -11,7 +11,7 @@ $result = $mysqli->query("SELECT * FROM users WHERE emailaddress='$emailaddress'
 
 if ( $result->num_rows == 0 ){ 
     $_SESSION['message'] = "Error! User with that email does not exist!";
-    header("location: errorMessage.php");
+    header("location: errorMessage.php")
 }
 else { 
     $user = $result->fetch_assoc();

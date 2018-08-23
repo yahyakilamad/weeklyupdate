@@ -9,7 +9,7 @@
 
 // Set session variables to be used on profile.php page
 
-$_SESSION['email_address'] = $_POST['email_address'];
+$_SESSION['email_address'] = $_POST['email_address']
 $_SESSION['first_name'] = $_POST['firstname'];
 $_SESSION['last_name'] = $_POST['lastname'];
 
