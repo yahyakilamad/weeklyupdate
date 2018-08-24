@@ -12,7 +12,7 @@ session_start();
 <html>
 <head>
     <title>Error</title>
-    <?php include 'css.html'; ?
+    <?php include 'css.html'; ?>
 </head>
 <body>
 <div class="form">

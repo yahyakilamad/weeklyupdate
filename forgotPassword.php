@@ -16,7 +16,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     if ( $result->num_rows == 0 ) // User doesn't exist
     {
         $_SESSION['message'] = "User with that email address doesn't exist!";
-        header("location: errorMessage.php")
+        header("location: errorMessage.php");
     }
     else { // User exists (num_rows != 0)
 
