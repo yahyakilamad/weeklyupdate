@@ -2,21 +2,18 @@
 /**
  * Created by IntelliJ IDEA.
  * User: Yahya
- * Date: 14/08/2018
- * Time: 11:26
- * Displays all error messages
- */
+/* Displays all successful messages */
 session_start();
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Error</title>
+    <title>Success</title>
     <?php include 'css.html'; ?>
 </head>
 <body>
 <div class="form">
-    <h1>Error</h1>
+    <h1><?= 'Success'; ?></h1>
     <p>
         <?php
         if( isset($_SESSION['message']) AND !empty($_SESSION['message']) ):

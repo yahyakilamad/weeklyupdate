@@ -11,7 +11,7 @@ $result = $mysqli->query("SELECT * FROM users WHERE emailaddress='$emailaddress'
 
 if ( $result->num_rows == 0 ){ 
     $_SESSION['message'] = "Error! User with that email does not exist!";
-    header("location: errorMessage.php")
+    header("location: errorMessage.php");
 }
 else { 
     $user = $result->fetch_assoc();
@@ -29,7 +29,7 @@ else {
         header("location: profilePage.php");
     }
     else {
-        $_SESSION['message'] = "You have entered a incorrectpassword. Please try again!";
+        $_SESSION['message'] = "You have entered a incorrect password. Please try again!";
         header("location: errorMessage.php");
     }
 }
