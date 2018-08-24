@@ -3,7 +3,7 @@
  * Created by IntelliJ IDEA.
  * User: Yahya
 /* Displays all successful messages */
-session_start();
+session_start()
 ?>
 <!DOCTYPE html>
 <html>
